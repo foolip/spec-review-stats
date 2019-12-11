@@ -1,0 +1,22 @@
+{
+  "name": "spec-review-stats",
+  "description": "spec review statistics",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foolip/spec-review-stats.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "main": "index.js"
+  },
+  "dependencies": {
+    "@octokit/graphql": "4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "6.7.2",
+    "eslint-config-google": "0.14.0"
+  }
+}
